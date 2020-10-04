@@ -31,6 +31,11 @@ export default {
     this.handleView();
     window.addEventListener("resize", this.handleView);
   },
+  watch: {
+    mobileView: function(val) {
+      if (val === false) this.showNav = false;
+    },
+  },
   components: {
     Navigation,
     NavigationMobile,
