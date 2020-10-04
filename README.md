@@ -1,6 +1,7 @@
 # pug-mobile-navigation
 
-![screenshot.png]
+![Screenshot](screenshot.png)
+Screenshot
 
 ## Project setup
 
